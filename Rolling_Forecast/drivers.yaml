@@ -1,0 +1,22 @@
+metadata:
+  forecast_name: 'Strategic_2026_Rolling'
+  start_month: 1
+
+revenue_drivers:
+  monthly_leads: 500
+  conversion_rate: 0.08 # 8% convert to paid
+  avg_contract_value: 12000
+  churn_rate: 0.02
+
+opex_drivers:
+  headcount_cost_per_month: 816000 # Derived from our previous Repo #2
+  marketing_spend_per_lead: 150
+  fixed_overhead: 45000
+
+scenarios:
+  base:
+    growth_factor: 1.0
+  bull:
+    growth_factor: 1.2
+  bear:
+    growth_factor: 0.8
